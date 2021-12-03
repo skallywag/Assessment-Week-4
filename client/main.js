@@ -32,7 +32,7 @@ const yourFortune = (e) => {
 fortuneBtn.addEventListener('click', yourFortune)
 
 
-
+// need to practice on forms more.
 const favCharForm = (e) => {
     e.preventDefault()
     const charInput = document.getElementById('fav-char')
