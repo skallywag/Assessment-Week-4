@@ -1,0 +1,27 @@
+
+.top-con {
+    padding: 10px;
+}
+
+
+
+
+
+img {
+    height: 400px;
+    width: 60vw;
+    padding: 25px;
+}
+.rick-con {
+    padding: 25px;
+    
+}
+
+.rick-button {
+    padding: 25px;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    border-radius: 280px;
+    cursor: pointer;
+}

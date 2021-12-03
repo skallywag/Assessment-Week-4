@@ -22,4 +22,24 @@ app.get("/api/compliment", (req, res) => {
   
 });
 
+app.get("/api/fortune", (req, res) => {
+  const fortunes = ['Santa Clause is real', 'Your going to be an excellent programmer!', 'Success is a journey, not a destination', 'Swimming is easy. Stay floating is hard.', 'The night life is for you.',]
+
+  let randomFort = Math.floor(Math.random() *
+  fortunes.length)
+  let yourFortune = fortunes[randomFort]
+
+  res.status(200).send(yourFortune)
+})
+
+
+app.get('/api/form', (req, res) => {
+  console.log(res);
+   
+})
+
+
+
+
+
 app.listen(4000, () => console.log("Server running on 4000"));
